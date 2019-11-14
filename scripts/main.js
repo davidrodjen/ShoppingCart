@@ -35,3 +35,16 @@ function getProduct() {
 }
 function saveProductToCart(p) {
 }
+/**
+ * Represents a single shopping cart item, field
+ */
+var Product = /** @class */ (function () {
+    function Product() {
+    }
+    return Product;
+}());
+// // Test code
+// let prod = new Product();
+// prod.title = "something";
+// prod.description = "something else";
+// prod.price = 4.99;
